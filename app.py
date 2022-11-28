@@ -11,7 +11,7 @@ def user_input_features():
     return Numbers
 
 list = user_input_features()
-min = min(list)
+max = max(list)
 st.write(list)
-st.write('Minimum of three no is ')
-st.write(min)
+st.write('Maximum of three no is ')
+st.write(max)
